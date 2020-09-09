@@ -12,6 +12,7 @@ them for work
                     'theme_location'        =>  'enter_any_menu_id',
                     'container'             =>  false,
                     'fallback_cb'           =>  false,
+                    // depth is nav can't contain nested list only dirct link else use 0 for all or 2,3 etc
                     'depth'                 =>  1,
                     'walker'                =>  new JU_Custom_Nav_Walker()
                 ]);
